@@ -1,4 +1,280 @@
-<!DOCTYPE html><html lang="ja"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>中2暗記ポータル</title><link rel="icon" href="暗記サイトアイコン背景透過.png"><meta name="google-site-verification" content="vNgRrpb3UvoY39B0QklxDmnc73egTqjaeguz7IusimM" /><style>body{font-family:'Helvetica Neue',Arial,sans-serif;background:#f8fafc;color:#1e293b;display:flex;flex-direction:column;justify-content:center;align-items:center;min-height:100vh;margin:0;padding:20px;box-sizing:border-box}#p{width:100%;max-width:500px;background:#ffffff;padding:35px 25px;border-radius:24px;box-shadow:0 10px 25px -5px rgba(0,0,0,0.05);border:1px solid #e2e8f0;text-align:center;box-sizing:border-box}h1{font-size:24px;font-weight:800;margin:0 0 8px 0;color:#0f172a}p{color:#64748b;font-size:14px;margin:0 0 28px 0}.g{display:grid;gap:16px}a{text-decoration:none;display:block}button{width:100%;padding:18px;font-size:16px;font-weight:700;color:#475569;background:#f1f5f9;border:1px solid #e2e8f0;border-radius:14px;cursor:pointer;transition:all .2s ease;display:flex;justify-content:space-between;align-items:center;box-sizing:border-box}button::after{content:'➔';font-weight:400;color:#94a3b8;transition:transform .2s}button:hover{color:#fff;border-color:transparent;transform:translateY(-2px)}button:hover::after{color:#fff;transform:translateX(4px)}.e:hover{background:linear-gradient(135deg,#a855f7,#ec4899);box-shadow:0 10px 15px -3px rgba(168,85,247,0.3)}.s:hover{background:linear-gradient(135deg,#22c55e,#84cc16);box-shadow:0 10px 15px -3px rgba(34,197,94,0.3)}#f{display:none;width:100%;max-width:500px;margin-top:20px;padding:20px;background:#fff;border:2px dashed #cbd5e1;border-radius:16px;text-align:center;box-sizing:border-box;animation:fI .5s ease forwards}@keyframes fI{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}.ft{font-size:14px;font-weight:700;color:#334155;margin:0 0 4px 0}.fs{font-size:12px;color:#64748b;margin:0 0 12px 0}.fb{display:inline-block;padding:10px 20px;font-size:14px;font-weight:700;color:#fff;background:#475569;border:none;border-radius:8px;text-decoration:none;transition:background .2s}.fb:hover{background:#1e293b}</style></head><body><div id="p"><h1>中学2年 暗記サイト集</h1><p>学習するコンテンツを選択してください</p><div class="g"><a href="https://winu-u0304.github.io/english---Irregular-Verb-Conjugation-Table---quiz2/index.html" target="_blank" rel="noopener noreferrer"><button class="e">英語：不規則動詞の変化クイズ</button></a><a href="https://winu-u0304.github.io/science---element-symbol---quiz/" target="_blank" rel="noopener noreferrer"><button class="s">理科：元素記号クイズ</button></a></div></div><div id="f"><div class="ft">勉強中にすみません。</div><div class="fs">アプデや新しく追加してほしい暗記サイトなどの案がありましたらこちらにお書きください。</div><a href="https://docs.google.com/forms/d/e/1FAIpQLSfL5Ohyk6thworFmeoP5PAQeuCtoIXhwYqJIw3Ntd2LBF0x4w/viewform?usp=publish-editor" target="_blank" rel="noopener noreferrer" class="fb">ご意見箱（Googleフォーム）を開く</a></div><script>window.addEventListener('pageshow',(e)=>{if(e.persisted||(window.performance&&window.performance.navigation.type===2)){document.getElementById('f').style.display='block'}else{const c=localStorage.getItem('v');if(c){document.getElementById('f').style.display='block'}else{localStorage.setItem('v','1')}}});</script></body></html>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>中2暗記ポータル</title>
+    <link rel="icon" href="暗記サイトアイコン背景透過.png">
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background: #f8fafc;
+            color: #1e293b;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        #p {
+            width: 100%;
+            max-width: 500px;
+            background: #ffffff;
+            padding: 35px 25px;
+            border-radius: 24px;
+            box-shadow: 0 10px 25px -5px rgba(0,0,0,0.05);
+            border: 1px solid #e2e8f0;
+            text-align: center;
+            box-sizing: border-box;
+        }
+        h1 {
+            font-size: 24px;
+            font-weight: 800;
+            margin: 0 0 8px 0;
+            color: #0f172a;
+        }
+        p {
+            color: #64748b;
+            font-size: 14px;
+            margin: 0 0 28px 0;
+        }
+        .g {
+            display: grid;
+            gap: 16px;
+        }
+        a {
+            text-decoration: none;
+            display: block;
+        }
+        button {
+            width: 100%;
+            padding: 18px;
+            font-size: 16px;
+            font-weight: 700;
+            color: #475569;
+            background: #f1f5f9;
+            border: 1px solid #e2e8f0;
+            border-radius: 14px;
+            cursor: pointer;
+            transition: all .2s ease;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-sizing: border-box;
+        }
+        button::after {
+            content: '➔';
+            font-weight: 400;
+            color: #94a3b8;
+            transition: transform .2s;
+        }
+        button:hover {
+            color: #fff;
+            border-color: transparent;
+            transform: translateY(-2px);
+        }
+        button:hover::after {
+            color: #fff;
+            transform: translateX(4px);
+        }
+        
+        /* 教科別ホバーカラー */
+        .j:hover { /* 国語：赤系 */
+            background: linear-gradient(135deg, #ef4444, #f43f5e);
+            box-shadow: 0 10px 15px -3px rgba(239, 68, 68, 0.3);
+        }
+        .m:hover { /* 数学：青系 */
+            background: linear-gradient(135deg, #3b82f6, #06b6d4);
+            box-shadow: 0 10px 15px -3px rgba(59, 82, 246, 0.3);
+        }
+        .ss:hover { /* 社会：オレンジ系 */
+            background: linear-gradient(135deg, #f97316, #eab308);
+            box-shadow: 0 10px 15px -3px rgba(249, 115, 22, 0.3);
+        }
+        .s:hover { /* 理科：緑系 */
+            background: linear-gradient(135deg, #22c55e, #84cc16);
+            box-shadow: 0 10px 15px -3px rgba(34, 197, 94, 0.3);
+        }
+        .e:hover { /* 英語：紫系 */
+            background: linear-gradient(135deg, #a855f7, #ec4899);
+            box-shadow: 0 10px 15px -3px rgba(168, 85, 247, 0.3);
+        }
+        
+        /* 戻るボタン専用スタイル */
+        .back-btn {
+            background: #f8fafc;
+            border: 1px dashed #cbd5e1;
+            margin-bottom: 8px;
+        }
+        .back-btn::after {
+            content: '↩';
+        }
+        .back-btn:hover {
+            background: #64748b;
+            color: #fff;
+        }
+        .back-btn:hover::after {
+            transform: translateX(-4px);
+        }
 
+        /* ご意見箱スタイル */
+        #f {
+            display: none;
+            width: 100%;
+            max-width: 500px;
+            margin-top: 20px;
+            padding: 20px;
+            background: #fff;
+            border: 2px dashed #cbd5e1;
+            border-radius: 16px;
+            text-align: center;
+            box-sizing: border-box;
+            animation: fI .5s ease forwards;
+        }
+        @keyframes fI {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .ft { font-size: 14px; font-weight: 700; color: #334155; margin: 0 0 4px 0; }
+        .fs { font-size: 12px; color: #64748b; margin: 0 0 12px 0; }
+        .fb {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 14px;
+            font-weight: 700;
+            color: #fff;
+            background: #475569;
+            border: none;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: background .2s;
+        }
+        .fb:hover { background: #1e293b; }
+    </style>
+</head>
+<body>
 
+<div id="p">
+    <h1 id="title">中学2年 暗記サイト集</h1>
+    <p id="subtitle">学習する教科を選択してください</p>
 
+    <!-- 1. トップ画面（教科選択：ご指定の順番に並び替え） -->
+    <div id="main-menu" class="g">
+        <button class="j" onclick="showCategory('japanese')">国語</button>
+        <button class="m" onclick="showCategory('math')">数学</button>
+        <button class="ss" onclick="showCategory('social')">社会</button>
+        <button class="s" onclick="showCategory('science')">理科</button>
+        <button class="e" onclick="showCategory('english')">英語</button>
+    </div>
+
+    <!-- 2. 国語メニュー（準備中） -->
+    <div id="japanese-menu" class="g" style="display: none;">
+        <button class="back-btn" onclick="showMainMenu()">教科選択に戻る</button>
+        <p style="margin: 20px 0; color: #94a3b8;">ただいまクイズを準備中です！</p>
+    </div>
+
+    <!-- 3. 数学メニュー（準備中） -->
+    <div id="math-menu" class="g" style="display: none;">
+        <button class="back-btn" onclick="showMainMenu()">教科選択に戻る</button>
+        <p style="margin: 20px 0; color: #94a3b8;">ただいまクイズを準備中です！</p>
+    </div>
+
+    <!-- 4. 社会メニュー（準備中） -->
+    <div id="social-menu" class="g" style="display: none;">
+        <button class="back-btn" onclick="showMainMenu()">教科選択に戻る</button>
+        <p style="margin: 20px 0; color: #94a3b8;">ただいまクイズを準備中です！</p>
+    </div>
+
+    <!-- 5. 理科メニュー -->
+    <div id="science-menu" class="g" style="display: none;">
+        <button class="back-btn" onclick="showMainMenu()">教科選択に戻る</button>
+        <a href="https://github.io" target="_blank" rel="noopener noreferrer">
+            <button class="s">理科：元素記号クイズ</button>
+        </a>
+    </div>
+
+    <!-- 6. 英語メニュー -->
+    <div id="english-menu" class="g" style="display: none;">
+        <button class="back-btn" onclick="showMainMenu()">教科選択に戻る</button>
+        <a href="https://github.io" target="_blank" rel="noopener noreferrer">
+            <button class="e">英語：不規則動詞の変化クイズ</button>
+        </a>
+    </div>
+</div>
+
+<!-- ご意見箱 -->
+<div id="f">
+    <div class="ft">勉強中にすみません。</div>
+    <div class="fs">アプデや新しく追加してほしい暗記サイトなどの案がありましたらこちらにお書きください。</div>
+    <a href="https://google.com" target="_blank" rel="noopener noreferrer" class="fb">ご意見箱（Googleフォーム）を開く</a>
+</div>
+
+<script>
+    // メニューのIDリスト
+    const menus = ['main-menu', 'japanese-menu', 'math-menu', 'social-menu', 'science-menu', 'english-menu'];
+
+    // 全メニューを非表示にするヘルパー関数
+    function hideAllMenus() {
+        menus.forEach(id => {
+            document.getElementById(id).style.display = 'none';
+        });
+    }
+
+    // 画面切り替え用の関数
+    function showCategory(category) {
+        hideAllMenus();
+
+        const title = document.getElementById('title');
+        const subtitle = document.getElementById('subtitle');
+
+        if (category === 'japanese') {
+            document.getElementById('japanese-menu').style.display = 'grid';
+            title.innerText = '中学2年 国語';
+            subtitle.innerText = '挑戦するクイズを選んでください';
+        } else if (category === 'math') {
+            document.getElementById('math-menu').style.display = 'grid';
+            title.innerText = '中学2年 数学';
+            subtitle.innerText = '挑戦するクイズを選んでください';
+        } else if (category === 'social') {
+            document.getElementById('social-menu').style.display = 'grid';
+            title.innerText = '中学2年 社会';
+            subtitle.innerText = '挑戦するクイズを選んでください';
+        } else if (category === 'science') {
+            document.getElementById('science-menu').style.display = 'grid';
+            title.innerText = '中学2年 理科';
+            subtitle.innerText = '挑戦するクイズを選んでください';
+        } else if (category === 'english') {
+            document.getElementById('english-menu').style.display = 'grid';
+            title.innerText = '中学2年 英語';
+            subtitle.innerText = '挑戦するクイズを選んでください';
+        }
+    }
+
+    // メインメニューに戻る関数
+    function showMainMenu() {
+        hideAllMenus();
+        document.getElementById('main-menu').style.display = 'grid';
+        
+        document.getElementById('title').innerText = '中学2年 暗記サイト集';
+        document.getElementById('subtitle').innerText = '学習する教科を選択してください';
+    }
+
+    // ご意見箱の表示制御
+    window.addEventListener('pageshow', (e) => {
+        if (e.persisted || (window.performance && window.performance.navigation.type === 2)) {
+            document.getElementById('f').style.display = 'block';
+        } else {
+            const c = localStorage.getItem('v');
+            if (c) {
+                document.getElementById('f').style.display = 'block';
+            } else {
+                localStorage.setItem('v', '1');
+            }
+        }
+    });
+</script>
+</body>
+</html>
